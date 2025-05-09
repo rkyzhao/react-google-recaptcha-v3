@@ -1,5 +1,5 @@
 {
-  "name": "@rkyzhao/react-google-recaptcha-v3",
+  "name": "react-google-recaptcha-v3",
   "version": "1.10.2",
   "description": "Fork of react component for google-recaptcha v3 for testing",
   "module": "dist/react-google-recaptcha-v3.esm.js",
