@@ -1,7 +1,7 @@
 {
-  "name": "react-google-recaptcha-v3",
-  "version": "1.10.1",
-  "description": "React component for google-recaptcha v3",
+  "name": "@rkyzhao/react-google-recaptcha-v3",
+  "version": "1.10.2",
+  "description": "Fork of react component for google-recaptcha v3 for testing",
   "module": "dist/react-google-recaptcha-v3.esm.js",
   "main": "dist/react-google-recaptcha-v3.cjs.js",
   "types": "dist/types/index.d.ts",
@@ -12,16 +12,16 @@
     "build-example": "webpack --config webpack.config.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
-  "author": "Duong Tran",
-  "homepage": "https://github.com/t49tran/react-google-recaptcha-v3",
+  "author": "rkyzhao",
+  "homepage": "https://github.com/rkyzhao/react-google-recaptcha-v3",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/t49tran/react-google-recaptcha-v3"
+    "url": "git+https://github.com/rkyzhao/react-google-recaptcha-v3"
   },
   "peerDependencies": {
-    "react": "^16.3 || ^17.0 || ^18.0",
-    "react-dom": "^17.0 || ^18.0"
+    "react": "^16.3 || ^17.0 || ^18.0 || ^19.0",
+    "react-dom": "^17.0 || ^18.0 || ^19.0"
   },
   "dependencies": {
     "hoist-non-react-statics": "^3.3.2"
